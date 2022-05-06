@@ -1,1 +1,10 @@
-<p>busqueda works!</p>
+<h5>Buscar:</h5>
+<input 
+type="text" 
+class="form-control" 
+placeholder="Buscar gifs..."
+(keyup.enter)="buscar()"
+#txtBuscar
+>
+
+<!-- (keyup.enter)="buscar(txtBuscar.value)" esto era cuando le pasabamos parametros -->
